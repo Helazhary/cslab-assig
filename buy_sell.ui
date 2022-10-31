@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BUY_SELL</class>
+ <widget class="QMainWindow" name="BUY_SELL">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1177</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BUY_SELL</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pbcustomer">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>180</y>
+      <width>141</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BUY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pbseller">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>190</y>
+      <width>131</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SELL</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>-20</y>
+      <width>381</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Welcome, please select your intended transaction: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelpic">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>991</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">file:///C:/Users/Salma Youssef/Downloads/local-market-place-with-vegetables-and-fruits-vector-26872866.jpg</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>labelpic</zorder>
+   <zorder>pbcustomer</zorder>
+   <zorder>pbseller</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

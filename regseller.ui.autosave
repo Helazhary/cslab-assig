@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>registration</class>
+ <widget class="QDialog" name="registration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>763</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>531</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QLabel" name="labelemail">
+      <property name="text">
+       <string>Email:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="labelnumber">
+      <property name="text">
+       <string>Number:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="numberinput"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="emailinput"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="labelname">
+      <property name="text">
+       <string>Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="labeladdress">
+      <property name="text">
+       <string>Address:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nameinput"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pbback">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>400</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>back</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>531</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="2">
+     <widget class="QLabel" name="labelprice">
+      <property name="text">
+       <string>Price:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="labelcategory">
+      <property name="text">
+       <string>Category:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="labelproductname">
+      <property name="text">
+       <string>Product Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="quantityinput"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="labelquantity">
+      <property name="text">
+       <string>Quantity:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="priductnameinput"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="priceinput"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="categoryinput"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pbaddproduct">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>380</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add product</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
